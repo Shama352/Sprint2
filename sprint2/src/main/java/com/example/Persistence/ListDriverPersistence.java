@@ -46,6 +46,7 @@ public class ListDriverPersistence  implements DriverPersistence {
     public boolean update(Driver d, FavouriteAreas f) {
         return false;
     }
+    
 
     @Override
     public List getPendingList()
@@ -119,6 +120,12 @@ public class ListDriverPersistence  implements DriverPersistence {
         }
     }
     return true ;
+    }
+
+    @Override
+    public boolean setBalance(Driver d, int balance) {
+        d.setBalance(balance);
+        return true;
     }
 }
   

@@ -61,9 +61,6 @@ public class Ride {
         return price;
     }
 
-
-
-
     public int getEndRide()
     {
         return EndRide;

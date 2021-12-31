@@ -52,4 +52,9 @@ public class DriverService implements IDriverService {
     public boolean getMatchedRides(Driver d,List<Ride> lisst,List<Driver> list2) {
         return list.getMatchedRides(d,lisst,list2);
     }
+
+    @Override
+    public boolean setBalance(Driver d, int balance) {
+        return list.setBalance(d, balance);
+    }
 }

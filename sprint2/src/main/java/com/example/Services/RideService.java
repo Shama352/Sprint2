@@ -2,6 +2,7 @@ package com.example.Services;
 
 import java.util.List;
 
+import com.example.Core.Driver;
 import com.example.Core.Ride;
 
 public class RideService implements IRideService {
@@ -57,6 +58,8 @@ public class RideService implements IRideService {
     public List<Ride> getRidesHistory(String name) {
         return persistence.getRidesHistory(name);
     }
+
+
     
     
 }

@@ -18,4 +18,5 @@ public interface DriverPersistence {
     public boolean addDriverFavArea(FavouriteAreas dFavLocations);
     public List<FavouriteAreas> getDFavArea(Driver d);
     public boolean getMatchedRides(Driver d,List<Ride> list,List<Driver> list2);
+    public boolean setBalance(Driver d,int balance);
 }

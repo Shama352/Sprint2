@@ -55,6 +55,8 @@ public class RideController {
     @PostMapping("/rides/end/{name}")
     public boolean end(@PathVariable String name) {
         Ride r =  Rlist.getbyDriver(name);
+        Driver d = dServ.getdriver(name);
+        dServ.setBalance(d, r.getPrice());
         return Rlist.EndRide(r);
     }
 

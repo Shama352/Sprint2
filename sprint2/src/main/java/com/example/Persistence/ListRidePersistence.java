@@ -71,7 +71,6 @@ public class ListRidePersistence implements RidePersistence {
         r.setEndRide(1);
         Rides.remove(r);
         RidesHistory.add(r);
-        
         return true;
     }
     @Override
