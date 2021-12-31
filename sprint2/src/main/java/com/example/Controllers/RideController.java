@@ -72,4 +72,10 @@ public class RideController {
     }
 
 
+    @PostMapping("/rides/rateride/{ID}/{rate}/{name}")
+    public boolean rate(@PathVariable int ID , @PathVariable int rate, @PathVariable String name) {
+        Ride r= Rlist.getHistory(ID);
+        return Rlist.RideRate(r,rate);   
+    }
+
 }

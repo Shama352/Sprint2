@@ -100,6 +100,16 @@ public class ListRidePersistence implements RidePersistence {
         return y;
         
     }
+    @Override
+    public Ride getHistory(int id) {
+        for (Ride ride : RidesHistory) {
+            if (ride.getID() == id) {
+                return ride;
+            }
+        }
+
+        return null;
+    }
 
     }
 

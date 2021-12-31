@@ -59,6 +59,11 @@ public class RideService implements IRideService {
         return persistence.getRidesHistory(name);
     }
 
+    @Override
+    public Ride getHistory(int id) {
+        return persistence.getHistory(id);
+    }
+
 
     
     

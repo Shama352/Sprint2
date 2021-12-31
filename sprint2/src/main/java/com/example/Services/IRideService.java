@@ -19,4 +19,5 @@ public interface IRideService {
     Ride getbyDriver(String name);
     boolean acceptRide(Ride r,int i);
     List<Ride> getRidesHistory(String name);
+    Ride getHistory(int id);
 }
