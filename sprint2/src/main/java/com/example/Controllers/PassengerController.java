@@ -28,7 +28,7 @@ public class PassengerController {
         return plist.getPassenger(name);
     }
 
-    @PostMapping("/passenger/add/passenger")
+    @PostMapping("/passenger/add")
     public boolean add(@RequestBody Passenger p) {
         return plist.add(p);
     }

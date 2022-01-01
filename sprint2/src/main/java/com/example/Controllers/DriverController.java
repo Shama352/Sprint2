@@ -30,7 +30,6 @@ public class DriverController {
     private IDriverService dServ = new DriverService();
     private IRideService RServ = new RideService();
     
-	
 
 
 	@GetMapping("/driver/list")
@@ -43,7 +42,7 @@ public class DriverController {
         return dServ.getdriver(name);
     }
 
-    @PostMapping("/driver/add/driver")
+    @PostMapping("/driver/add")
     public boolean add(@RequestBody Driver d) {
         return dServ.add(d);
     }
@@ -51,7 +50,7 @@ public class DriverController {
     public boolean delete(@PathVariable String name) {
 		return dServ.delete(name);
 	}
-    @PutMapping("/driver/delete/driver")
+    @PutMapping("/driver/delete")
     public boolean update(Driver d, FavouriteAreas f) {
 		return dServ.update(d,f);
 	}
