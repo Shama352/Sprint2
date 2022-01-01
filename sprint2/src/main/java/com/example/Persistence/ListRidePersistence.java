@@ -5,7 +5,7 @@ import java.util.List;
 
 import com.example.Core.Driver;
 import com.example.Core.Ride;
-import com.example.Observers.RideOffer;
+import com.example.others.RideOffer;
 
 public class ListRidePersistence implements RidePersistence {
     public List <Ride> Rides = new ArrayList<Ride>();

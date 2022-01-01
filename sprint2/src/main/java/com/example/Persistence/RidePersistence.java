@@ -3,7 +3,7 @@ package com.example.Persistence;
 import java.util.List;
 
 import com.example.Core.Ride;
-import com.example.Observers.RideOffer;
+import com.example.others.RideOffer;
 
 public interface RidePersistence {
     public int getNextId();

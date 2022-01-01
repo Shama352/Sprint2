@@ -2,7 +2,7 @@ package com.example.Core;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.example.Observers.RideOffer;
+import com.example.others.RideOffer;
 
 public class Ride {
     String source;

@@ -3,7 +3,7 @@ package com.example.Services;
 import java.util.List;
 
 import com.example.Core.*;
-import com.example.Observers.FavouriteAreas;
+import com.example.others.FavouriteAreas;
 import com.example.Persistence.DriverPersistence;
 import com.example.Persistence.ListDriverPersistence;
 

@@ -4,7 +4,7 @@ import java.util.*;
 
 import com.example.Core.Driver;
 import com.example.Core.Ride;
-import com.example.Observers.FavouriteAreas;
+import com.example.others.FavouriteAreas;
 import com.example.Persistence.ListRidePersistence;
 public class ListDriverPersistence  implements DriverPersistence {
 

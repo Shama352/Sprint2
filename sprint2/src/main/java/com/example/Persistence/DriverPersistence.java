@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.example.Core.Driver;
 import com.example.Core.Ride;
-import com.example.Observers.FavouriteAreas;
+import com.example.others.FavouriteAreas;
 
 public interface DriverPersistence {
     public boolean add(Driver d);

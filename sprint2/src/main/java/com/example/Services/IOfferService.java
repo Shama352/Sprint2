@@ -2,7 +2,7 @@ package com.example.Services;
 
 import com.example.Core.Driver;
 import com.example.Core.Ride;
-import com.example.Observers.RideOffer;
+import com.example.others.RideOffer;
 import com.example.Persistence.ListRideOfferpersistence;
 
 public interface IOfferService {

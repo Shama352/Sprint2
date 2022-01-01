@@ -1,6 +1,6 @@
 package com.example.Core;
 
-import com.example.Observers.Observer;
+import com.example.others.Observer;
 
 public class Passenger extends User implements Observer  {
     public Passenger(String Type ,String user, String mail, String pass, String mobile)

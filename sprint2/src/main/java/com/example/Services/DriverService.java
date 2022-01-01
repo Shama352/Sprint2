@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.example.Core.Driver;
 import com.example.Core.Ride;
-import com.example.Observers.FavouriteAreas;
+import com.example.others.FavouriteAreas;
 
 public class DriverService implements IDriverService {
     public boolean add(Driver d)

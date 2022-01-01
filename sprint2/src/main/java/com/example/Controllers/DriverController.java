@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.example.Core.Driver;
 import com.example.Core.Ride;
-import com.example.Observers.FavouriteAreas;
+import com.example.others.FavouriteAreas;
 import com.example.Services.DriverService;
 import com.example.Services.IDriverService;
 import com.example.Services.IRideService;

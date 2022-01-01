@@ -3,7 +3,7 @@ package com.example.Persistence;
 import java.util.List;
 
 import com.example.Core.Driver;
-import com.example.Observers.FavouriteAreas;
+import com.example.others.FavouriteAreas;
 
 public interface FavouriteAreasPersistence {
     public boolean add (FavouriteAreas area);

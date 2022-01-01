@@ -6,7 +6,7 @@ import com.example.Core.Ride;
 import java.util.List;
 
 import com.example.Core.Driver;
-import com.example.Observers.RideOffer;
+import com.example.others.RideOffer;
 import com.example.Services.DriverService;
 import com.example.Services.IDriverService;
 import com.example.Services.IOfferService;

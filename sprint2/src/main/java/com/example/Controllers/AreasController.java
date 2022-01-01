@@ -3,7 +3,7 @@ package com.example.Controllers;
 import java.util.List;
 
 import com.example.Core.Driver;
-import com.example.Observers.FavouriteAreas;
+import com.example.others.FavouriteAreas;
 import com.example.Services.AreasService;
 import com.example.Services.DriverService;
 import com.example.Services.IAreasService;

@@ -2,9 +2,9 @@ package com.example.Core;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.example.Observers.DriverObserver;
-import com.example.Observers.FavouriteAreas;
-import com.example.Observers.RideOffer;
+import com.example.others.DriverObserver;
+import com.example.others.FavouriteAreas;
+import com.example.others.RideOffer;
 
 public class Driver extends User implements DriverObserver
 {
