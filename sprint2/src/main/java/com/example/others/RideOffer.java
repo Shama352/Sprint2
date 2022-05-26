@@ -28,7 +28,7 @@ public class RideOffer implements Notifier {
     public void setOffer(int offer) {
 		this.offer = offer;
 	}
-    public int getOffere() {
+    public int getOffer() {
 		return offer;
 	}
     public void notifyObservers() {
@@ -41,9 +41,5 @@ public class RideOffer implements Notifier {
     public void PriceChanged() {
         notifyObservers();
     }
-    // public void SetOffer( int offer)
-    // {
-    //     this.offer=offer;
-    //     PriceChanged();
-    // }
+
 }

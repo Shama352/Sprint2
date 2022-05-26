@@ -13,6 +13,6 @@ public interface IAreasService {
     public boolean add(FavouriteAreas d);
     public List getAllLocations();
     public FavouriteAreas get(String areaName);
-    public List<Driver> getDriverFav(String name);
+    //public List<Driver> getDriverFav(String name);
     public boolean update(FavouriteAreas fav, Driver dname);
 }

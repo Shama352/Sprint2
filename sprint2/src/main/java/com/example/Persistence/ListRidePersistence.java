@@ -83,7 +83,7 @@ public class ListRidePersistence implements RidePersistence {
     public boolean acceptRide(Ride r,int i) {
         r.setAcceptance(1);
         r.setDriver(r.getOffer().get(i).getOfferedBy().getUserName());
-        r.setPrice(r.getOffer().get(i).getOffere());
+        r.setPrice(r.getOffer().get(i).getOffer());
         return true;
     }
 
