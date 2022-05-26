@@ -25,10 +25,10 @@ public class FavouriteAreas implements FavouriteAreasSubject {
 	{
 		this.drivers = dFavArea;
 	}	
-	public List<Driver> getdFavArea()
-	{
-		return drivers;
-	}
+	// public List<Driver> getdFavArea()
+	// {
+	// 	return drivers;
+	// }
     public void notifyObservers() {
         for (Driver d : drivers) {
            //d.update(this.name);

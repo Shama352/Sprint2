@@ -22,12 +22,9 @@ public class AreasController {
 
     @PostMapping("/add/driver/{drivername}/favouriteAreas")
     public boolean add(@PathVariable String drivername, @RequestBody FavouriteAreas favArea) {	
-        Driver currentDriver = dServ.getdriver(drivername);
-    	if (currentDriver!=null)
-    	{
-    		currentDriver.addFavArea(favArea);
-    	}
-        return aServ.update(favArea,currentDriver);
+        Driver d = dServ.getdriver(drivername);
+	    d.addFavArea(favArea);
+        return aServ.update(favArea,d);
     }
     
 

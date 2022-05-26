@@ -22,11 +22,11 @@ public class AreasService implements IAreasService {
         return favAreas.get(areaName);
     }
 
-    @Override
-    public List<Driver> getDriverFav(String name) {
-        FavouriteAreas area = this.get(name);
-		return  area.getdFavArea();
-    }
+    // @Override
+    // public List<Driver> getDriverFav(String name) {
+    //     FavouriteAreas area = this.get(name);
+	// 	return  area.getdFavArea();
+    // }
 
     @Override
     public boolean update(FavouriteAreas area, Driver dname) {
